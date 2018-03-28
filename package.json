@@ -1,0 +1,25 @@
+{
+  "name": "ffmpeg-extract-frame",
+  "version": "0.0.0",
+  "description": "Utility for extracting a single frame from a video.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/ffmpeg-extract-frame",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava -v && standard"
+  },
+  "keywords": [
+    "ffmpeg",
+    "fluent-ffmpeg"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sharp": "^0.20.1",
+    "standard": "^11.0.0",
+    "tempy": "^0.2.1"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
