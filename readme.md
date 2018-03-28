@@ -1,6 +1,6 @@
 # ffmpeg-extract-frame
 
-> Extracts a single frame from a video file using [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg).
+> Extracts a single frame from a video using [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg).
 
 [![NPM](https://img.shields.io/npm/v/ffmpeg-extract-frame.svg)](https://www.npmjs.com/package/ffmpeg-extract-frame) [![Build Status](https://travis-ci.org/transitive-bullshit/ffmpeg-extract-frame.svg?branch=master)](https://travis-ci.org/transitive-bullshit/ffmpeg-extract-frame) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
