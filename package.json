@@ -1,6 +1,6 @@
 {
   "name": "ffmpeg-extract-frame",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extracts a single frame from a video.",
   "main": "index.js",
   "repository": "transitive-bullshit/ffmpeg-extract-frame",
