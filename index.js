@@ -33,14 +33,14 @@ module.exports = (opts) => {
       '-q:v', quality
     ]
 
-    cmd.
-      inputOptions(inputOptions).
-      outputOptions(outputOptions).
-      output(output).
-      on('start', (cmd) => log && log({cmd})).
-      on('end', () => resolve()).
-      on('error', (err) => reject(err)).
-      run();
+    cmd
+      .inputOptions(inputOptions)
+      .outputOptions(outputOptions)
+      .output(output)
+      .on('start', (cmd) => log && log({cmd}))
+      .on('end', () => resolve())
+      .on('error', (err) => reject(err))
+      .run();
   })
 }
 
