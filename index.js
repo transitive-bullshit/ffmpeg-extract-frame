@@ -23,7 +23,6 @@ module.exports = (opts) => {
       cmd.seek(offset / 1000)
     }
 
-
     if (noaccurate) {
       inputOptions.push('-noaccurate_seek')
     }
@@ -40,7 +39,6 @@ module.exports = (opts) => {
       .on('start', (cmd) => log && log({cmd}))
       .on('end', () => resolve())
       .on('error', (err) => reject(err))
-      .run();
+      .run()
   })
 }
-
