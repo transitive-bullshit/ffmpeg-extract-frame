@@ -41,3 +41,20 @@ test('png', async (t) => {
   t.deepEqual(image.channels, 3)
   t.deepEqual(image.format, 'png')
 })
+
+test('noaccurate_seek', async (t) => {
+  const output = tempy.file({extension: 'jpg'})
+  await extractFrame({
+    log: console.log,
+    input,
+    output,
+    offset: 1000,
+    noaccurate: true
+  })
+
+  const image = await sharp(output).metadata()
+  t.deepEqual(image.width, 640)
+  t.deepEqual(image.height, 360)
+  t.deepEqual(image.channels, 3)
+  t.deepEqual(image.format, 'jpeg')
+})
