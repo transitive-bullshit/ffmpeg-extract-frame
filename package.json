@@ -16,7 +16,7 @@
   ],
   "devDependencies": {
     "ava": "^0.25.0",
-    "sharp": "^0.20.1",
+    "sharp": "^0.30.5",
     "standard": "^11.0.0",
     "tempy": "^0.2.1"
   },
